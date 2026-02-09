@@ -1,6 +1,6 @@
 # get_next_line
 
-*This project has been created as part of the 42 curriculum by <ziyang>.*
+*This project has been created as part of the 42 curriculum by ziyang.*
 
 ## Description
 
@@ -64,20 +64,29 @@ int main(void)
 ### Testing
 
 To test the function:
+
+
+#### Create a test file
 ```bash
-# Create a test file
 vim test.txt
+
 hello world!
 how are you?
 have a nice day!
+```
 
-# Compile with main
+#### Compile with main
+```bash
 cc -Wall -Wextra -Werror -D BUFFER_SIZE=5 get_next_line.c get_next_line_utils.c main.c 
+```
 
-# Run
+#### Run
+```bash
 ./a.out
+```
 
-# valgrind
+#### valgrind
+```bash
 valgrind ./a.out
 ```
 
@@ -95,8 +104,7 @@ valgrind ./a.out
 ### Testers
 - [xicodomingues/francinette](https://github.com/xicodomingues/francinette) - 42 project tester
 
----
 
 ## Additional Notes
 
-- This implementation covers the **mandatory part** only (single file descriptor)
+This implementation covers the **mandatory part** only (single file descriptor)
